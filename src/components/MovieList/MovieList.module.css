@@ -1,0 +1,29 @@
+.img {
+    width: 200px;
+    border-radius: 10px 10px 5px 5px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items {
+    max-width: 200px;
+    margin: 12px;
+}
+
+.container h3 {
+    padding: 0;
+    margin: 0 0 5px 0;
+    color: white;
+    transition: all 0.3s ease-in-out; 
+}
+
+.link:hover > h3 {
+    color: orange;
+}

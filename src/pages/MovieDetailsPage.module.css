@@ -1,0 +1,27 @@
+.root {
+    position: absolute;
+    top: 140px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 24px;
+    text-align: start;
+    margin: 24px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.backbtn {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+}
